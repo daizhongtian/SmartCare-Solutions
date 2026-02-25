@@ -1,6 +1,6 @@
 ## ADMIN  role user story 
 
-###Epic
+### Epic
 AS an admin,I want to use admin-only permissions to manage system data so that i can administer the platform security
 
 Acceptance Criteria:
@@ -12,7 +12,7 @@ Acceptance Criteria:
 
 
 ## User role Stories 
-###Epic
+### Epic
 As a user, I want to register and log in to get an appointment and manage my appointment, and get consultation with doctor, so that I can receive care online.
 
 - As a user, I can check doctor list without log in
