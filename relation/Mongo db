@@ -1,0 +1,1 @@
+In a smart clinic, a prescription is not just one flat record. It often has a list of medicines and many optional fields like notes, tags, and attachments. These fields may change or grow in the future.
