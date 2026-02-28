@@ -6,12 +6,12 @@ Example:
 
 ```json
 {
-  "_id": { "$oid": "65f1c2a8d9b3f1a123456789" },
+  "_id": { "$oid": "65f1c2a8d9b3f1a123456789" },//example 
   "appointmentId": 101,
   "patientId": 12,
   "doctorId": 5,
   "placeId": 2,
-  "issuedAt": "2026-02-28T10:20:00Z",
+  "issuedAt": "2026-02-28T10:20:00+01：00 ", // poland  time 
   "status": "ACTIVE",
   "medications": [
     {
