@@ -1,0 +1,45 @@
+In a smart clinic, a prescription is not just a flat record.
+It often includes a list of medicines and optional fields such as notes, tags, and attachments.
+These fields may change or expand over time.
+
+Example:
+
+```json
+{
+  "_id": { "$oid": "65f1c2a8d9b3f1a123456789" },//example 
+  "appointmentId": 101,
+  "patientId": 12,
+  "doctorId": 5,
+  "placeId": 2,
+  "issuedAt": "2026-02-28T10:20:00+01：00 ", // poland  time 
+  "status": "ACTIVE",
+  "medications": [
+    {
+      "name": "Aspirin",
+      "dosage": "100mg",
+      "frequency": "Once a day",
+      "durationDays": 30,
+      "instructions": "Take after meals"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10mg",
+      "frequency": "Twice a day",
+      "durationDays": 60
+    }
+  ],
+  "refill": {
+    "allowed": 2,
+    "used": 0
+  },
+  "doctorNotes": "Monitor blood pressure weekly.",
+  "tags": ["hypertension", "pain"],
+  "attachments": [
+    { "type": "pdf", "url": "https://example.com/files/prescription-101.pdf" }
+  ],
+  "audit": {
+    "createdByUserId": 1,
+    "createdAt": "2026-02-28T10:20:00Z",
+    "updatedAt": "2026-02-28T10:20:00Z"
+  }
+}
