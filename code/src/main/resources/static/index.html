@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>   
+    <meta charset=" UTF-8">
+    <meta name = "viewport" content = "width= device-width,initial-scale = 1.0"/>
+    <title> Clinic System </title>
+
+    <!--css-->
+    <link rel = "stylesheet"href = "./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    </head>
+
+    <body> 
+        <header id = "header"> </header>
+
+        <main>
+            <h1> select your role</h1>
+            <div class = "role-buttons">
+                <button id = "adminBtn"> Admin</button>
+                <button id = "doctorBtn"> Doctor</button>
+                 <button id="patientBtn">Patient</button>
+
+            </div>
+                  <!-- Modal (hidden by default) -->
+            <div id = "modal" class = "modal hidden">
+                <div class ="modal-content">
+                    <button id = "closeModal" type = "button">x </button>
+                    <div id="modal-body"> </div>
+                </div>
+            </div>
+        </main>
+        <footer id = "footer"> </footer>
+
+    <!-- JS -->
+
+ 
+    <script src = "./js/utils/util.js "defer> </script>
+    <script src = "./js/components/header.js"defer> </script>
+    <script src="./js/components/footer.js" defer></script>
+    <script src="./js/services/index.js" defer></script>
+    </body>
+    </html>
+

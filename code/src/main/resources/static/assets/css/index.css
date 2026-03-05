@@ -1,0 +1,83 @@
+
+*{margin : 0; padding :0;box-sizing: border-box;}
+
+html,body{
+    height : 100%;
+}
+.wrapper
+{
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.main-content
+{
+    flex:1;
+}
+
+html,
+body
+{
+    height:100%;
+    font-family: "Roboto",Arial,sans-serif;
+}
+
+.main-content
+{
+    flex:1;
+    padding : 48px 20px;
+   /*  background-image: url("../images/defineRole/index.png"); */
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.close
+{
+    position: absolute;
+    top:10px;
+    right :12px;
+    cursor: pointer;
+    font-size: 24px;
+}
+.close:hover{
+    opacity:0.75;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+}
+.footer
+{
+     display: flex;
+     justify-content: space-between;
+     gap: 12px;
+     padding: 14px 18px;
+     flex-wrap :wrap;
+}
+
+/* 7) basic inputs/select interactions */
+
+.input-field:focus,
+.select-dropdown:focus,
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+.checkbox-group
+{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
