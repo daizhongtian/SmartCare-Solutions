@@ -1,8 +1,8 @@
-package com.example.Controller;
+package com.project.back_end.controller;
 
-import com.DTO.Login;
-import com.project.Service.PatientService;
-import com.project.Service.Service;
+import com.project.back_end.dto.Login;
+import com.project.back_end.service.PatientService;
+import com.project.back_end.service.Service;
 import com.project.back_end.models.Patient;
 import java.util.HashMap;
 import java.util.Map;

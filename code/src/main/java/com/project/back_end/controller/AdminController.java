@@ -1,6 +1,6 @@
-package com.example.Controller;
+package com.project.back_end.controller;
 
-import com.project.Service.Service;
+import com.project.back_end.service.Service;
 import com.project.back_end.models.Admin;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;

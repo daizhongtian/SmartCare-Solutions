@@ -1,11 +1,11 @@
-package com.project.Service;
+package com.project.back_end.service;
 
 import com.project.back_end.models.Appointment;
 import com.project.back_end.models.Doctor;
 import com.project.back_end.models.Patient;
-import com.repository.AppointmentRepository;
-import com.repository.DoctorRepository;
-import com.repository.PatientRepository;
+import com.project.back_end.repository.AppointmentRepository;
+import com.project.back_end.repository.DoctorRepository;
+import com.project.back_end.repository.PatientRepository;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Collections;

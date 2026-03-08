@@ -1,7 +1,7 @@
-package com.example.Controller;
+package com.project.back_end.controller;
 
-import com.project.Service.PrescriptionService;
-import com.project.Service.Service;
+import com.project.back_end.service.PrescriptionService;
+import com.project.back_end.service.Service;
 import com.project.back_end.models.Prescription;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,9 @@
-package com.project.Service;
+package com.project.back_end.service;
 
 import com.project.back_end.models.Appointment;
 import com.project.back_end.models.Patient;
-import com.repository.AppointmentRepository;
-import com.repository.PatientRepository;
+import com.project.back_end.repository.AppointmentRepository;
+import com.project.back_end.repository.PatientRepository;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

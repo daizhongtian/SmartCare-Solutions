@@ -1,7 +1,7 @@
-package com.example.Controller;
+package com.project.back_end.controller;
 
-import com.project.Service.AppointmentService;
-import com.project.Service.Service;
+import com.project.back_end.service.AppointmentService;
+import com.project.back_end.service.Service;
 import com.project.back_end.models.Appointment;
 import java.time.LocalDate;
 import java.util.HashMap;

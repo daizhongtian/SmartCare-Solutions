@@ -1,10 +1,10 @@
-package com.project.Service;
+package com.project.back_end.service;
 
-import com.DTO.Login;
+import com.project.back_end.dto.Login;
 import com.project.back_end.models.Appointment;
 import com.project.back_end.models.Doctor;
-import com.repository.AppointmentRepository;
-import com.repository.DoctorRepository;
+import com.project.back_end.repository.AppointmentRepository;
+import com.project.back_end.repository.DoctorRepository;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

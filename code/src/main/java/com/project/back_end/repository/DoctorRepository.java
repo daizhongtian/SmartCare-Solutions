@@ -1,4 +1,4 @@
-package com.repository;
+package com.project.back_end.repository;
 
 import com.project.back_end.models.Doctor;
 import java.util.List;

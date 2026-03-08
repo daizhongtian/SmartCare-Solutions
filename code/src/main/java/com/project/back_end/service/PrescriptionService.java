@@ -1,7 +1,7 @@
-package com.project.Service;
+package com.project.back_end.service;
 
 import com.project.back_end.models.Prescription;
-import com.repository.PrescriptionRepository;
+import com.project.back_end.repository.PrescriptionRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

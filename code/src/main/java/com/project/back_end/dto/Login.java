@@ -1,4 +1,4 @@
-package com.DTO;
+package com.project.back_end.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

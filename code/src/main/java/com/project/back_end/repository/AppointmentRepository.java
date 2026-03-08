@@ -1,4 +1,4 @@
-package com.repository;
+package com.project.back_end.repository;
 
 import java.time.LocalDateTime;
 import java.util.List;

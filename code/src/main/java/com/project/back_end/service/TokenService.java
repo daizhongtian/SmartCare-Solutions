@@ -1,8 +1,8 @@
-package com.project.Service;
+package com.project.back_end.service;
 
-import com.repository.AdminRepository;
-import com.repository.DoctorRepository;
-import com.repository.PatientRepository;
+import com.project.back_end.repository.AdminRepository;
+import com.project.back_end.repository.DoctorRepository;
+import com.project.back_end.repository.PatientRepository;
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
